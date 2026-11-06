@@ -1,0 +1,26 @@
+# Dependencias y archivos generados
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+*.log
+tmp/
+.test-pg/
+
+# Configuración local y secretos (conservar la plantilla)
+.env
+.env.*
+!.env.example
+
+# Certificados, claves y tickets de autenticación ARCA
+certs/
+data/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
